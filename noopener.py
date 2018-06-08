@@ -71,7 +71,7 @@ class noopener(IScanIssue):
                       "This could be leveraged to conduct phishing attacks.")
 
     def getRemediationBackground(self):
-        return "References: <ul><li><a href='https://mathiasbynens.github.io/rel-noopener/'>About rel=noopener</a></li><li><a href='https://snoopysecurity.github.io/2018/04/26/target-blank-vulnerability.html'>The target='_blank' Vulnerability</a></li></ul>"
+        return "References: <ul><li><a href='https://mathiasbynens.github.io/rel-noopener/'>About rel=noopener</a></li><li><a href='https://snoopysecurity.github.io/webappsec/2018/04/26/target_blank_vulnerability.html'>The target='_blank' Vulnerability</a></li></ul>"
 
     def getIssueDetail(self):
         return str("Burp identified the target=\"_blank\" attribute being used without the noopener and noreferrer attribute in the following page: <b>"
