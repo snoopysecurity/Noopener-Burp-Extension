@@ -6,4 +6,4 @@ The target attribute specifies the context in where a linked resource will open 
 
 * https://mathiasbynens.github.io/rel-noopener/
 * https://dev.to/ben/the-targetblank-vulnerability-by-example
-* https://snoopysecurity.github.io/2018/04/26/target-blank-vulnerability.html
+* https://snoopysecurity.github.io/webappsec/2018/04/26/target_blank_vulnerability.html
